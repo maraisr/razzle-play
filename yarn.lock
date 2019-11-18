@@ -823,30 +823,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.8.tgz#dab418655af39ce2fa99286a0bed21ef8072ac9d"
   integrity sha512-XLla8N+iyfjvsa0KKV+BP/iGSoTmwxsu5Ci5sM33z9TjohF72DEz95iNvD6pPmemvbQgxAv/909G73gUn8QR7w==
 
-"@types/prop-types@*":
-  version "15.7.3"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
-  integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
-
 "@types/q@^1.5.1":
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
-
-"@types/react-dom@^16.9.4":
-  version "16.9.4"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.4.tgz#0b58df09a60961dcb77f62d4f1832427513420df"
-  integrity sha512-fya9xteU/n90tda0s+FtN5Ym4tbgxpq/hb/Af24dvs6uYnYn+fspaxw5USlw0R8apDNwxsqumdRoCoKitckQqw==
-  dependencies:
-    "@types/react" "*"
-
-"@types/react@*", "@types/react@^16.9.11":
-  version "16.9.11"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.11.tgz#70e0b7ad79058a7842f25ccf2999807076ada120"
-  integrity sha512-UBT4GZ3PokTXSWmdgC/GeCGEJXE5ofWyibCcecRLUVN2ZBpXQGVgQGtG2foS7CrTKFKlQVVswLvf7Js6XA/CVQ==
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^2.2.0"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
@@ -2636,11 +2616,6 @@ cssstyle@^1.0.0:
   dependencies:
     cssom "0.3.x"
 
-csstype@^2.2.0:
-  version "2.6.7"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.7.tgz#20b0024c20b6718f4eda3853a1f5a1cce7f5e4a5"
-  integrity sha512-9Mcn9sFbGBAdmimWb2gLVDtFJzeKtDGIr76TUqmjZrw9LFXBMSU70lcs+C0/7fyCd6iBDqmksUcCOUIkisPHsQ==
-
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
@@ -3633,18 +3608,6 @@ gaze@^1.0.0:
   dependencies:
     globule "^1.0.0"
 
-gdu@^1.0.80:
-  version "1.0.80"
-  resolved "https://registry.yarnpkg.com/gdu/-/gdu-1.0.80.tgz#123d57b362a733aa7a3e0a09930bdbe7bf32ba99"
-  integrity sha512-bi2no/6SMw17jYJhvwmSLxGAzrh41NQy6ihPL8VmcyZnSijQbRTp67l3mlyYIPct83CNgnEEXUGRtC1nmlvZHA==
-  dependencies:
-    graphql "^14.5.8"
-    graphql-config "^2.2.1"
-    kleur "^3.0.3"
-    mkdirp "^0.5.1"
-    node-fetch "^2.6.0"
-    sade "^1.6.1"
-
 get-caller-file@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"
@@ -3782,38 +3745,12 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
 
-graphql-config@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/graphql-config/-/graphql-config-2.2.1.tgz#5fd0ec77ac7428ca5fb2026cf131be10151a0cb2"
-  integrity sha512-U8+1IAhw9m6WkZRRcyj8ZarK96R6lQBQ0an4lp76Ps9FyhOXENC5YQOxOFGm5CxPrX2rD0g3Je4zG5xdNJjwzQ==
-  dependencies:
-    graphql-import "^0.7.1"
-    graphql-request "^1.5.0"
-    js-yaml "^3.10.0"
-    lodash "^4.17.4"
-    minimatch "^3.0.4"
-
-graphql-import@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/graphql-import/-/graphql-import-0.7.1.tgz#4add8d91a5f752d764b0a4a7a461fcd93136f223"
-  integrity sha512-YpwpaPjRUVlw2SN3OPljpWbVRWAhMAyfSba5U47qGMOSsPLi2gYeJtngGpymjm9nk57RFWEpjqwh4+dpYuFAPw==
-  dependencies:
-    lodash "^4.17.4"
-    resolve-from "^4.0.0"
-
-graphql-request@^1.5.0, graphql-request@^1.8.2:
+graphql-request@^1.8.2:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/graphql-request/-/graphql-request-1.8.2.tgz#398d10ae15c585676741bde3fc01d5ca948f8fbe"
   integrity sha512-dDX2M+VMsxXFCmUX0Vo0TopIZIX4ggzOtiCsThgtrKR4niiaagsGTDIHj3fsOMFETpa064vzovI+4YV4QnMbcg==
   dependencies:
     cross-fetch "2.2.2"
-
-graphql@^14.5.8:
-  version "14.5.8"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.5.8.tgz#504f3d3114cb9a0a3f359bbbcf38d9e5bf6a6b3c"
-  integrity sha512-MMwmi0zlVLQKLdGiMfWkgQD7dY/TUKt4L+zgJ/aR0Howebod3aNgP5JkgvAULiR2HPVZaP2VEElqtdidHweLkg==
-  dependencies:
-    iterall "^1.2.2"
 
 growly@^1.3.0:
   version "1.3.0"
@@ -4701,11 +4638,6 @@ istanbul-reports@^1.5.1:
   dependencies:
     handlebars "^4.0.3"
 
-iterall@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
-  integrity sha512-yynBb1g+RFUPY64fTrFv7nsjRrENBQJaX2UL+2Szc9REFrSNm1rpSXHGzhmAy7a9uv3vlvgBlXnf9RqmPH1/DA==
-
 jest-changed-files@^23.4.2:
   version "23.4.2"
   resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-23.4.2.tgz#1eed688370cd5eebafe4ae93d34bb3b64968fe83"
@@ -5043,7 +4975,7 @@ js-tokens@^3.0.2:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
-js-yaml@^3.10.0, js-yaml@^3.13.1, js-yaml@^3.7.0:
+js-yaml@^3.13.1, js-yaml@^3.7.0:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
@@ -5202,11 +5134,6 @@ kleur@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-2.0.2.tgz#b704f4944d95e255d038f0cb05fb8a602c55a300"
   integrity sha512-77XF9iTllATmG9lSlIv0qdQ2BQ/h9t0bJllHlbvsQ0zUWfU7Yi0S8L5JXzPZgkefIiajLmBJJ4BsMJmqcf7oxQ==
-
-kleur@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
-  integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
 last-call-webpack-plugin@^3.0.0:
   version "3.0.0"
@@ -5774,11 +5701,6 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
-mri@^1.1.0:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/mri/-/mri-1.1.4.tgz#7cb1dd1b9b40905f1fac053abe25b6720f44744a"
-  integrity sha512-6y7IjGPm8AzlvoUrwAaw1tLnUBudaS3752vcd8JtrpGGQn+rXIe63LFVHm/YMwtqAuh+LJPCFdlLYPWM1nYn6w==
-
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -5867,11 +5789,6 @@ node-fetch@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
   integrity sha1-q4hOjn5X44qUR1POxwb3iNF2i7U=
-
-node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
 node-forge@0.9.0:
   version "0.9.0"
@@ -7550,15 +7467,25 @@ react-dev-utils@^6.0.4, react-dev-utils@^6.1.1:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@^16.12.0:
-  version "16.12.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
-  integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
+react-dom@0.0.0-experimental-b53ea6ca0:
+  version "0.0.0-experimental-b53ea6ca0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.0.0-experimental-b53ea6ca0.tgz#bde4f3fdff6d9d7b54b2325039f7a9602e868a6b"
+  integrity sha512-TBJoVJbu1zBEQwPF+T6nyQXZCNXkJfYvWlIVvKZOHfQz0+L95FCh3GInnDyPrH+k8K8mOXcuZ8D2mJxWueRm7Q==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.18.0"
+    scheduler "0.0.0-experimental-b53ea6ca0"
+
+react-dom@^0.0.0-experimental-b53ea6ca0:
+  version "0.0.0-fec00a869"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.0.0-fec00a869.tgz#f952e11a31e446c00e87603998d7780bc51bdbd9"
+  integrity sha512-atB5i2HgCvbvhtGXq9oaX/BCL2AFZjnccougU8S9eulRFNQbNrfGNwIcj04PRo3XU1ZsBw5syL/5l596UaolKA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "0.0.0-fec00a869"
 
 react-error-overlay@^5.0.4, react-error-overlay@^5.1.0:
   version "5.1.6"
@@ -7570,14 +7497,24 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-react@^16.12.0:
-  version "16.12.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
-  integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
+react@0.0.0-experimental-b53ea6ca0:
+  version "0.0.0-experimental-b53ea6ca0"
+  resolved "https://registry.yarnpkg.com/react/-/react-0.0.0-experimental-b53ea6ca0.tgz#268b9dcaee17f740c18b77d5689971d3902f6553"
+  integrity sha512-p2+cNr/nqb6JcMCLgpR9xR63RrnmfWxOWJAt2WRz9+Fpg8BMEdTb/gDnwMtCPCFF9nNtNHbhI3Cal53qlMN59Q==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
+
+react@^0.0.0-experimental-b53ea6ca0:
+  version "0.0.0-fec00a869"
+  resolved "https://registry.yarnpkg.com/react/-/react-0.0.0-fec00a869.tgz#1803f4f17cdd5adfdf614de2386c5fb5c84bbe91"
+  integrity sha512-FaS3ViFU4ag7cuhDHQgGK3DAdWaD8YFXzEbO/Qzz33Si7VEzRRdnyoegFwg7VkEKxR6CvCVP6revi9Tm3Gq+WQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "0.0.0-fec00a869"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -7849,11 +7786,6 @@ resolve-from@^3.0.0:
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
   integrity sha1-six699nWiBvItuZTM17rywoYh0g=
 
-resolve-from@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
-  integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
-
 resolve-url-loader@^2.3.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/resolve-url-loader/-/resolve-url-loader-2.3.2.tgz#83bb9ebc392b66c563795eef22f078970357a26e"
@@ -7968,13 +7900,6 @@ rxjs@^6.1.0:
   dependencies:
     tslib "^1.9.0"
 
-sade@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/sade/-/sade-1.6.1.tgz#aba16655e998b2b68beb9f13938af010f42eddd2"
-  integrity sha512-USHm9quYNmJwFwhOnEuJohdnBhUOKV1mhL0koHSJMLJaesRX0nuDuzbWmtUBbUmXkwTalLtUBzDlEnU940BiQA==
-  dependencies:
-    mri "^1.1.0"
-
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
@@ -8039,10 +7964,18 @@ sax@^1.2.4, sax@~1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-scheduler@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
-  integrity sha512-agTSHR1Nbfi6ulI0kYNK0203joW2Y5W4po4l+v03tOoiJKpTBbxpNhWDvqc/4IcOw+KLmSiQLTasZ4cab2/UWQ==
+scheduler@0.0.0-experimental-b53ea6ca0:
+  version "0.0.0-experimental-b53ea6ca0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.0.0-experimental-b53ea6ca0.tgz#b55499856375d94097a9b669f5f19cf55f048a19"
+  integrity sha512-mXHVx/g98NpUEnoAI25uvVHDuZs/PCMzQTOEfwjD9hbCQF92b0fXDSOahyiTlp0A++XwDil0wh2nvB8tDm6W/Q==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@0.0.0-fec00a869:
+  version "0.0.0-fec00a869"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.0.0-fec00a869.tgz#e28ff1aa107e1d04d6e8901641b4fb1e3ba98577"
+  integrity sha512-0U25jnyBP6dRPYwaVW4WMYB0jJSYlrIHFmIuXv27X+KIHJr7vyE9gcFTqZ61NQTuxYLYepAHnUs4KgQEUDlI+g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"

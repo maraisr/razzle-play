@@ -4,7 +4,7 @@
 		"endpoints": {
 			"next": {
 				"name": "next",
-				"url": "https://api.graph.cool/simple/v1/movies",
+				"url": "https://countries.trevorblades.com/",
 				"method": "POST"
 			}
 		}

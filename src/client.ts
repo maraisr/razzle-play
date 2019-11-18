@@ -1,9 +1,10 @@
-import { hydrate } from 'react-dom';
+import { createRoot } from 'react-dom';
 
 import { App } from './App';
 import { createElement } from 'react';
 
-hydrate(createElement(App), document.getElementById('app'));
+createRoot(document.getElementById('app'))
+	.render(createElement(App));
 
 // @ts-ignore
 if (module.hot) {

@@ -3,17 +3,15 @@ import '@autoguru/overdrive/dist/theme/tokens/render.scss';
 import '@autoguru/overdrive/dist/overdrive.css';
 import { request } from 'graphql-request';
 
-const API = 'https://api.graph.cool/simple/v1/movies';
+const API = 'https://countries.trevorblades.com/';
 const fetcher = query => request(API, query);
 
-import React from 'react';
+import React, { Suspense } from 'react';
 
-import { Suspense } from 'react';
-import { Stack, Text } from '@autoguru/overdrive';
 import useSWR from 'swr';
 
 export const App = () => {
-	return <Suspense fallback={'loading...'}>
+	return <Suspense fallback={'yes...'}>
 		<Test/>
 	</Suspense>;
 };
@@ -22,17 +20,14 @@ const Test = () => {
 
 	const { data } = useSWR(`
 	query {
-		allMovies {
-			title
+		countries {
+			code
+			name
 		}
 	}
 	`, fetcher, { suspense: true });
 
-	console.log(data);
-
-	return <Stack>
-		<Text>
-
-		</Text>
-	</Stack>;
+	return !data ? <p>loading...</p> : <ul>
+		{data.countries.map(({ name, code }) => <li key={code}>{name}</li>)}
+	</ul>;
 };
