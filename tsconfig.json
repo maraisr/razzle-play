@@ -1,0 +1,7 @@
+{
+  "extends": "@autoguru/tsconfig/web",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}
