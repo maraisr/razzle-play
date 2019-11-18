@@ -1,0 +1,12 @@
+{
+	"schemaPath": "./data/schema.graphql",
+	"extensions": {
+		"endpoints": {
+			"next": {
+				"name": "next",
+				"url": "https://api.graph.cool/simple/v1/movies",
+				"method": "POST"
+			}
+		}
+	}
+}
